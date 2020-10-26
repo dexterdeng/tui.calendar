@@ -19881,6 +19881,9 @@ ScheduleCreationPopup.prototype._toggleIsAllday = function(target) {
         checkbox = domutil.find(config.classname('.checkbox-square'), alldaySection);
         checkbox.checked = !checkbox.checked;
 
+        this._createDatepicker(this.rangePicker._startpicker._date,
+            this.rangePicker._endpicker._date, checkbox.checked);
+
         return true;
     }
 
