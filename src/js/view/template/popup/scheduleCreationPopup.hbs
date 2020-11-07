@@ -25,12 +25,6 @@
             </button>
         </div>
         <div class="{{CSS_PREFIX}}popup-section">
-            <div class="{{CSS_PREFIX}}popup-section-item {{CSS_PREFIX}}section-location">
-            <span class="{{CSS_PREFIX}}icon {{CSS_PREFIX}}ic-location"></span>
-                <input id="{{CSS_PREFIX}}schedule-location" class="{{CSS_PREFIX}}content" placeholder="{{locationPlaceholder-tmpl}}" value="{{location}}">
-            </div>
-        </div>
-        <div class="{{CSS_PREFIX}}popup-section">
             <div class="{{CSS_PREFIX}}popup-section-item {{CSS_PREFIX}}section-start-date">
                 <span class="{{CSS_PREFIX}}icon {{CSS_PREFIX}}ic-date"></span>
                 <input id="{{CSS_PREFIX}}schedule-start-date" class="{{CSS_PREFIX}}content" placeholder="{{startDatePlaceholder-tmpl}}">
@@ -46,6 +40,12 @@
                 <input id="{{CSS_PREFIX}}schedule-allday" type="checkbox" class="{{CSS_PREFIX}}checkbox-square"{{#if isAllDay}} checked{{/if}}>
                 <span class="{{CSS_PREFIX}}icon {{CSS_PREFIX}}ic-checkbox"></span>
                 <span class="{{CSS_PREFIX}}content">{{{popupIsAllDay-tmpl}}}</span>
+            </div>
+        </div>
+        <div class="{{CSS_PREFIX}}popup-section">
+            <div class="{{CSS_PREFIX}}popup-section-item {{CSS_PREFIX}}section-location">
+            <span class="{{CSS_PREFIX}}icon {{CSS_PREFIX}}ic-location"></span>
+                <input id="{{CSS_PREFIX}}schedule-location" class="{{CSS_PREFIX}}content" placeholder="{{locationPlaceholder-tmpl}}" value="{{location}}">
             </div>
         </div>
         <div class="{{CSS_PREFIX}}popup-section {{CSS_PREFIX}}dropdown {{CSS_PREFIX}}close {{CSS_PREFIX}}section-state">
