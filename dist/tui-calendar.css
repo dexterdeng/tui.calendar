@@ -1,6 +1,6 @@
 /*!
  * TOAST UI Calendar
- * @version 1.12.14 | Sun Nov 08 2020
+ * @version 1.12.14 | Sat Nov 21 2020
  * @author NHN FE Development Lab <dl_javascript@nhn.com>
  * @license MIT
  */
@@ -81,7 +81,8 @@
   margin: 0 10px;
 }
 .tui-full-calendar-month-week-item .tui-full-calendar-today {
-  background: none;
+  background: #fdf5ce;
+  background: #fdf5ce !important;
 }
 .tui-full-calendar-month-week-item .tui-full-calendar-today .tui-full-calendar-weekday-grid-date-decorator {
   display: inline-block;
@@ -89,10 +90,7 @@
   height: 27px;
   line-height: 27px;
   text-align: center;
-  background: #135de6;
   border-radius: 50%;
-  color: #fff;
-  font-weight: bold;
   margin-left: 2px;
 }
 .tui-full-calendar-weekday-container,
